@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-feign" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/service-feign" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-ribbon" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/service-ribbon" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-zuul" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-3.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/service-zuul" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
