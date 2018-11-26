@@ -1,51 +1,27 @@
-######################
-# Intellij
-######################
-.idea/
-*.iml
-*.iws
-*.ipr
-*.ids
-*.orig
+/build/
+!gradle/wrapper/gradle-wrapper.jar
 
-######################
-# Eclipse
-######################
-.settings/
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
+.settings
+.springBeans
 
-######################
-# Mac OSX
-######################
-.DS_Store
-.svn
-._*
-.Spotlight-V100
-.Trashes
+### IntelliJ IDEA ###
+.idea/
+.gradle/
+*.iws
+*.iml
+*.ipr
+out/
 
-######################
-# Logs
-######################
-*.log
-*.log.gz
 
-######################
-# Project Specific
-######################
-*build/
-*out/
-*classes/
-
-######################
-# Maven
-######################
-target/
-
-######################
-# Others
-######################
-*.class
-*.*~
-*~
-.merge_file*
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
