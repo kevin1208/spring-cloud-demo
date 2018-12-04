@@ -35,6 +35,7 @@ public class MyFilter extends ZuulFilter {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
         log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
+        
         Object accessToken = request.getParameter("token");
         if (accessToken == null) {
             log.warn("token is empty");
@@ -48,6 +49,7 @@ public class MyFilter extends ZuulFilter {
 
             return null;
         }
+
         log.info("ok");
         return null;
     }
