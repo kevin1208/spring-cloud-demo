@@ -39,6 +39,7 @@ public class MyFilter extends ZuulFilter {
         if (accessToken == null) {
             log.warn("token is empty");
             ctx.setSendZuulResponse(false);
+            
             ctx.setResponseStatusCode(401);
             try {
                 ctx.getResponse().getWriter().write("token is empty");
